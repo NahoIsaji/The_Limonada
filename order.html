@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style/order_style.css">
+        <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+        <script src="js/index_script.js"></script>
+        <title>Online order</title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html"><img src="pic/logo.png" alt="logo" id="logo"></a>
+            <button type="button" class="fas fa-bars" id="bars" onclick="displayNav()"></button>
+            <button type="button" class="fas fa-times" id="times" onclick="hideNav()"></button>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li class="navMenu"><a href="index.html">Home</a></li>
+                <li class="navMenu"><a href="index.html#menu">Menu</a></li>
+                <li class="navMenu"><a href="order.html" >Order</a></li>
+                <li class="navMenu"><a href="index.html#location">Location</a></li>
+                <li class="navMenu"><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1></h1>
+        <form action="confirm.php" method="post" name="orderForm">
+            <div class="menu">
+                <div class="menutext">
+                    <p class="products">Classic Lemonade</p>
+					<div class="price">
+						<p>(R) $6.00</p>
+						<p>(L) $6.50</p>
+					</div>
+                    <select name="c_size"> 
+                        <option value="r">Regular</option>
+                        <option value="l">Large</option>
+                    </select>
+                    <select name="c_quantity" id="c_quantity">
+                        <option value="0">QTY 0</option>
+                        <option value="1">QTY 1</option>
+                        <option value="2">QTY 2</option>
+                        <option value="3">QTY 3</option>
+                        <option value="4">QTY 4</option>
+                        <option value="5">QTY 5</option>
+                    </select> 
+                </div>
+                <img src="pic/classic.jpg" alt="classic lemonade" class="menuPic">
+            </div>
+            <div class="menu">
+                <div class="menutext">
+                    <p class="products">Orange Lemonade</p>
+					<div class="price">
+						<p>(R) $6.50</p>
+						<p>(L) $7.00</p>
+					</div>
+                    <select name="o_size">
+                        <option value="r">Regular</option>
+                        <option value="l">Large</option>
+                    </select>
+                    <select name="o_quantity">
+                        <option value="0">QTY 0</option>
+                        <option value="1">QTY 1</option>
+                        <option value="2">QTY 2</option>
+                        <option value="3">QTY 3</option>
+                        <option value="4">QTY 4</option>
+                        <option value="5">QTY 5</option>
+                    </select>
+                </div>
+                <img src="pic/orange.jpg" alt="orange lemonade" class="menuPic">
+            </div>
+            <div class="menu">
+                <div class="menutext">
+                    <p class="products">Blackberry Lemonade</p>
+					<div class="price">
+						<p>(R) $7.50</p>
+						<p>(L) $8.00</p>
+					</div>
+                    <select name="b_size">
+                        <option value="r">Regular</option>
+                        <option value="l">Large</option>
+                    </select>
+                    <select name="b_quantity">
+                        <option value="0">QTY 0</option>
+                        <option value="1">QTY 1</option>
+                        <option value="2">QTY 2</option>
+                        <option value="3">QTY 3</option>
+                        <option value="4">QTY 4</option>
+                        <option value="5">QTY 5</option>
+                    </select>
+                </div>
+                <img src="pic/blackberry.jpg" alt="blackberry lemonade" class="menuPic">
+            </div>
+            <div class="menu">
+                <div class="menutext">
+                    <p class="products">Peach Lemonade</p>
+					<div class="price">
+						<p class="price">(R) $7.00</p>
+						<p class="price">(L) $7.50</p>
+					</div>
+                    <select name="p_size">
+                        <option value="r">Regular</option>
+                        <option value="l">Large</option>
+                    </select>
+                    <select name="p_quantity">
+                        <option value="0">QTY 0</option>
+                        <option value="1">QTY 1</option>
+                        <option value="2">QTY 2</option>
+                        <option value="3">QTY 3</option>
+                        <option value="4">QTY 4</option>
+                        <option value="5">QTY 5</option>
+                    </select>                  
+                </div>
+                <img src="pic/peach.jpg" alt="peach lemonade" class="menuPic">
+            </div>
+            <div class="btn_wrapper">
+                <input type="submit" value="Confirm your order" id="submit" onclick="return checkOrder()">
+            </div>
+        </form>
+    </body>
+</html>

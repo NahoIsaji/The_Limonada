@@ -1,0 +1,111 @@
+/* header*/
+.header{
+    width: 100%;
+    text-align: center;
+}
+#logo{	
+    width: 250px;
+    margin-left: 5%;
+}
+#bars{
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+} 
+#times{
+    display: none;
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*nav bar*/
+nav{	
+    display: none;	
+}
+.navMenu{
+    list-style-type: none;	
+}
+.navMenu a{
+    display: block;
+    color: black;
+    font-family: Rockwell;
+    font-size: 20px;
+    width: 150px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 3%;
+    transition: all 500ms;
+}
+.navMenu a:hover{
+	background-color: #94a1b2; 
+	border-radius: 20px;
+	padding: 10px;
+}
+
+/*menu*/
+
+.menu{
+     display: block;
+     text-align: center;
+     border: solid 1px gray;
+     margin: 10px 20px;
+}
+.menutext{
+    display: inline-block;
+    font-family: Rockwell;
+    font-size: 25px;
+    width: 400px;
+    vertical-align: middle;
+}
+.menuPic{
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+}
+select, option{
+    font-family: Rockwell;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 20px 25px 10px;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: solid 1px;
+    cursor: pointer;
+}
+.btn_wrapper{
+    margin: 50px;
+    text-align: center;
+}
+#submit{
+    font-family: Rockwell;
+    font-size: 20px;
+    margin: 10px 20px 25px 10px;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: solid 1px;
+    cursor: pointer;
+    margin: auto;
+    display: inline-block;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+
+/*media*/
+@media screen and (max-width: 600px){
+    /*menu*/
+    .menuPic{
+        padding: 20px 0;
+    }
+}

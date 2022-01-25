@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/index_style.css">
+        <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+        <script src="js/index_script.js"></script>
+
+        <title>The Limonada</title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html"><img src="pic/logo.png" alt="logo" id="logo"></a>
+            <button type="button" class="fas fa-bars" id="bars" onclick="displayNav()"></button>
+            <button type="button" class="fas fa-times" id="times" onclick="hideNav()"></button>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li class="navMenu"><a href="index.html">Home</a></li>
+                <li class="navMenu"><a href="#menu">Menu</a></li>
+                <li class="navMenu"><a href="order.html" >Order</a></li>
+                <li class="navMenu"><a href="#location">Location</a></li>
+                <li class="navMenu"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="topimg_wrapper">		
+            <img src="pic/lemonade.jpg" alt="lemonade" class="topimg">
+            <h1>Welcome to<br>The Limonada</h1>	
+        </div>
+        <div class="btn">
+            <a href="#menu" class="btn menuBtn">Menu</a>
+            <a href="order.html" class="btn orderBtn">Order</a>
+        </div>
+        <p class="script">
+        The saying goes: if life gives you lemons, make lemonade! <br>
+        And it really isn't difficult to prepare it. <br>
+        Just water, sugar, lemons, anyway… <br>
+        The recipe hasn't changed much in all these years and 
+        the drink remains to this day as one of the most consumed in the world, 
+        mainly in tropical regions due to its refreshing flavor.
+        </p>
+
+        <p class="script">Lemonade can be any of a variety of sweetened or unsweetened beverages found throughout the world, 
+        but which are traditionally all characterized by a lemony flavor. <br>
+        Most varieties of lemonade can be separated into two distinct types: cloudy and clear. <br>
+        Each is known simply as "lemonade" (or a cognate). <br>
+        Cloudy lemonade, commonly found in North America and South Asia, is traditionally a homemade drink that uses lemon juice, water, 
+        and a sweetener such as cane sugar or honey. <br>
+        In the UK and Australia, clear lemonade, which is also usually carbonated, dominates. <br>
+        A popular cloudy variation is a pink lemonade, made with additional fruit flavors such as raspberry or strawberry, 
+        giving the drink its distinctive pink color.</p>
+        <div class="menu-wrapper">
+            <h2 id="menu">Menu</h2>		
+			<table>			
+                <tr>
+                    <td>Classic Lemonade</td>
+                    <td>(R) $6.00</td>
+					<td>(L) $6.50</td>
+                </tr>		
+                <tr>
+                    <td>Orange Lemonade</td>
+                    <td>(R) $6.50</td>
+					<td>(L) $7.00</td>
+                </tr>
+                <tr>
+                    <td>Blackberry Lemonade</td>
+                    <td>(R) $7.50</td>
+					<td>(L) $8.00</td>
+                </tr>
+                <tr>
+                    <td>Peach Lemonade</td>
+                    <td>(R) $7.00</td>
+					<td>(L) $7.50</td>
+                </tr>			
+            </table>
+        </div>
+        <div class="location-wrapper">
+            <h2 id="location">Location</h2>			
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44854.62280941089!2d-75.86186323806037!3d45.36064173027886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58d4159890b9502!2zNDXCsDIxJzU4LjIiTiA3NcKwNTAnMDAuOSJX!5e0!3m2!1sen!2sca!4v1642645934742!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <h3 id="contact">Ottawa River</h3>
+            <i class="fas fa-phone-square-alt"></i><p>615-111-1111</p><br>
+            <i class="fas fa-envelope"></i><p>email@fakemail.com</p><br>
+            <i class="fas fa-location-arrow"></i><p>Ottawa river, Ottawa, ON</p><br>
+            <i class="far fa-clock"></i><p>9:00AM - 6:00PM</p><br>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <a class="fas fa-envelope" href="mailto:info@fakemail.com"></a>
+                <a class="fab fa-facebook" href="https://www.facebook.com/"></a>
+                <a class="fab fa-twitter-square" href="https://twitter.com/"></a>
+            </div>
+            <div class="footer_nav">
+                <a href="index.html">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="order.html">Order</a>
+                <a href="#location">Location</a>
+            </div>
+        </div>
+    </body>
+</html>

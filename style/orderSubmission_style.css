@@ -1,0 +1,80 @@
+/* header*/
+.header{
+    width: 100%;
+    text-align: center;
+}
+#logo{	
+    width: 250px;
+    margin-left: 5%;
+}
+#bars{
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+} 
+#times{
+    display: none;
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*nav bar*/
+nav{	
+    display: none;	
+}
+.navMenu{
+    list-style-type: none;	
+}
+.navMenu a{
+    display: block;
+    color: black;
+    font-family: Rockwell;
+    font-size: 20px;
+    width: 150px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 3%;
+    transition: all 500ms;
+}
+.navMenu a:hover{
+    background-color: #94a1b2; 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*main contents*/
+h1{
+	font-family: Rockwell;
+    font-size: 50px;
+	text-align: center;
+	padding-top: 60px;
+}
+.contents{
+	font-family: Rockwell;
+    font-size: 20px;
+	text-align: center;
+}
+.back{
+	font-family: Rockwell;
+    font-size: 20px;
+	text-align: center;
+	padding-top: 70px;
+	
+}
+
+@media screen and (max-width: 600px){
+    h1{
+    font-size: 40px;
+}
+
+

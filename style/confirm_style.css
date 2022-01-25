@@ -1,0 +1,109 @@
+/* header*/
+.header{
+    width: 100%;
+    text-align: center;
+}
+#logo{	
+    width: 250px;
+    margin-left: 5%;
+}
+#bars{
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+} 
+#times{
+    display: none;
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 3%;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*nav bar*/
+nav{	
+    display: none;	
+}
+.navMenu{
+    list-style-type: none;	
+}
+.navMenu a{
+    display: block;
+    color: black;
+    font-family: Rockwell;
+    font-size: 20px;
+    width: 150px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 3%;
+    transition: all 500ms;
+}
+.navMenu a:hover{
+    background-color: #94a1b2; 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*table*/
+h1{
+	font-family: Rockwell;
+	text-align: center;
+	margin: 50px;
+}
+
+table{
+	margin: 0 auto;
+	width: 50%;
+	border-collapse: collapse;
+}
+th, td{
+	font-family: Rockwell;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+}
+th{
+	border-bottom: 5px solid #94a1b2;
+	
+}
+#fa-times, .fa-dollar-sign{
+	padding: 10px;
+	
+}
+#total{
+	text-align: right;
+	font-weight: bold;
+}
+/*button*/
+.btn{
+	font-family: Rockwell;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    margin: 30px;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: all 500ms ease;
+}
+.btn_wrapper{
+	text-align: right;
+	margin-right: 20%;
+	margin-top: 50px;
+	
+}
+
+@media screen and (max-width: 520px){
+    /*header*/
+    th, td{
+        font-size: 20px;
+    }
+}
